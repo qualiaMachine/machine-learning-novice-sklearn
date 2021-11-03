@@ -37,11 +37,11 @@ Many (but not all) machine learning systems "learn" by taking a series of input 
 
 Typically we will need to train our models with hundreds, thousands or even millions of examples before they work well enough to do any useful predictions or classifications with them. 
 
-Some systems will do training as a one shot process which produces a model. Others might try to continuosly refine their training through the real use of the system and human feedback to it. For example every time you mark an email as spam or not spam you are probably contributing to further training of your spam filter's model. 
+Some systems will do training as a one shot process which produces a model. Others might try to continuously refine their training through the real use of the system and human feedback to it. For example every time you mark an email as spam or not spam you are probably contributing to further training of your spam filter's model. 
 
 ### Types of output
 
-Predictors will usually involve a continuos scale of outputs, such as the price of something. Classifiers will tell you which class (or classes) are present in the data. For example a system to recognise hand writing from an input image will need to classify the output into one of a set of potential characters. 
+Predictors will usually involve a continuous scale of outputs, such as the price of something. Classifiers will tell you which class (or classes) are present in the data. For example a system to recognise hand writing from an input image will need to classify the output into one of a set of potential characters. 
 
 
 ## Machine learning vs Artificial Intelligence
@@ -92,7 +92,7 @@ Input data may also be lacking enough diversity to cover all examples. Due to ho
 
 We can only make reliable predictions about data which is in the same range as our training data. If we try to extrapolate beyond what was covered in the training data we'll probably get wrong answers. 
 
-## Over fitting
+## Overfitting
 
 Sometimes ML algorithms become over trained to their training data and struggle to work when presented with real data. In some cases it best not to train too many times. 
 
